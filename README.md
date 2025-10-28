@@ -8,7 +8,8 @@ O objetivo é praticar a criação e manipulação de bancos de dados relacionai
 ## 📂 Estrutura do Repositório
 
 - `criando_tabelas.sql` → Script responsável pela **criação das tabelas** do banco de dados.  
-- `adicionando_dados.sql` → Script que **insere os dados iniciais** nas tabelas criadas.
+- `adicionando_dados.sql` → Script que **insere os dados iniciais** nas tabelas criadas.  
+- `criando_subconsultas.sql` → Script com **consultas utilizando subconsultas**, permitindo práticas avançadas de seleção e filtragem de dados.
 
 ---
 
@@ -21,6 +22,9 @@ O objetivo é praticar a criação e manipulação de bancos de dados relacionai
 3. **Depois, execute o arquivo `adicionando_dados.sql`**  
    → Esse script insere os registros nas tabelas para permitir a execução das consultas apresentadas no curso.
 
+4. **Em seguida, execute o arquivo `criando_subconsultas.sql`**  
+   → Esse script contém consultas com **subconsultas** para prática de filtragem e seleção avançada.
+
 ---
 
 ## 💡 Conteúdos Praticados
@@ -30,6 +34,7 @@ Durante as aulas, são explorados conceitos como:
 - **INNER JOIN**, **LEFT JOIN** e **RIGHT JOIN**  
 - Criação de **Views (visões)**  
 - Uso de **transações** para garantir integridade dos dados  
+- **Subconsultas** para consultas mais avançadas e filtragem de dados
 
 ---
 

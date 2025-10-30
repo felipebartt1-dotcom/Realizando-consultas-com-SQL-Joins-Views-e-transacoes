@@ -9,8 +9,9 @@ O objetivo é praticar a criação e manipulação de bancos de dados relacionai
 
 - `criando_tabelas.sql` → Script responsável pela **criação das tabelas** do banco de dados.  
 - `adicionando_dados.sql` → Script que **insere os dados iniciais** nas tabelas criadas.  
-- `criando_subconsultas.sql` → Script com **consultas utilizando subconsultas**, permitindo práticas avançadas de seleção e filtragem de dados.
-- `Realizando_juncao_de_dados.sql` → Script com **consultas utilizando INNER JOIN, RIGHT JOIN, LEFT JOIN e FULL JOIN**, que permitem combinar e consultar dados relacionados entre diferentes tabelas.
+- `criando_subconsultas.sql` → Script com **consultas utilizando subconsultas**, permitindo práticas avançadas de seleção e filtragem de dados.  
+- `Realizando_juncao_de_dados.sql` → Script com **consultas utilizando INNER JOIN, RIGHT JOIN, LEFT JOIN e FULL JOIN**, que permitem combinar e consultar dados relacionados entre diferentes tabelas.  
+- `executando_transacoes.sql` → Script com **consultas utilizando VIEW e TRIGGER**, que possibilitam criar visões virtuais e automatizar processos no banco de dados.
 
 ---
 

@@ -12,8 +12,8 @@ SELECT
     C.Nome AS NomeCliente,
     SUM(IP.Quantidade * IP.PrecoUnitario) AS TotalPorPedido
 FROM Pedidos AS P
-JOIN Clientes AS C ON P.ID_Cliente = C.ID
-JOIN ItensPedido AS IP ON P.ID = IP.ID_Pedido
+JOIN Clientes AS C ON P.IDCliente = C.ID
+JOIN ItensPedido AS IP ON P.ID = IP.IDPedido
 GROUP BY P.ID, P.DataHoraPedido, C.Nome;
 
 -- Exibe o total de cada pedido agrupado por cliente e data

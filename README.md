@@ -1,44 +1,54 @@
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-F7DF1E?style=flat&logo=sql&logoColor=black)
+
 # 🧠 Realizando Consultas com SQL: Joins, Views e Transações
 
-Este repositório contém os arquivos SQL desenvolvidos durante o curso **"Realizando Consultas com SQL: Joins, Views e Transações"** da [Alura](https://www.alura.com.br/).  
-O objetivo é praticar a criação e manipulação de bancos de dados relacionais utilizando **SQLite**, aplicando os conceitos aprendidos em aula.
+Este repositório reúne os arquivos SQL desenvolvidos durante o curso **“Realizando Consultas com SQL: Joins, Views e Transações”** da [Alura](https://www.alura.com.br/).  
+O objetivo é praticar a criação, manipulação e consulta de **bancos de dados relacionais** utilizando **SQLite**, aplicando conceitos de junções, subconsultas, views, triggers e transações.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-- `criando_tabelas.sql` → Script responsável pela **criação das tabelas** do banco de dados.  
-- `adicionando_dados.sql` → Script que **insere os dados iniciais** nas tabelas criadas.  
-- `criando_subconsultas.sql` → Script com **consultas utilizando subconsultas**, permitindo práticas avançadas de seleção e filtragem de dados.  
-- `Realizando_juncao_de_dados.sql` → Script com **consultas utilizando INNER JOIN, RIGHT JOIN, LEFT JOIN e FULL JOIN**, que permitem combinar e consultar dados relacionados entre diferentes tabelas.  
-- `Implementando_Views_e_Trigger.sql` → Script com **consultas utilizando VIEW e TRIGGER**, que possibilitam criar visões virtuais e automatizar processos no banco de dados.  
-- `Mao_na_massa_Hora_da_pratica.sql` → Script com **consultas práticas envolvendo filtros, junções e subconsultas**, consolidando os conceitos aprendidos ao longo do curso.  
-- `Mao_na_massa_gerenciamento_escolar.sql` → Script com **consultas avançadas para gerenciamento escolar**, incluindo subconsultas, JOINs e criação de VIEWs para análise de alunos, professores, turmas e notas.
+- `criando_tabelas.sql` → Criação das **tabelas** do banco, com uso de valores **default** e definição de chaves primárias e estrangeiras.  
+- `adicionando_dados.sql` → **Inserção de registros** nas tabelas e **importação de dados via CSV**.  
+- `criando_subconsultas.sql` → Consultas com **subconsultas**, incluindo `IN` e `HAVING`, para filtragem e análise avançada.  
+- `Realizando_juncao_de_dados.sql` → Consultas com **INNER JOIN**, **LEFT JOIN**, **RIGHT JOIN** e **FULL JOIN** entre tabelas relacionadas.  
+- `Implementando_Views_e_Trigger.sql` → Criação de **VIEWs** e **TRIGGERs** para automatizar processos e simplificar consultas.  
+- `Mao_na_massa_Hora_da_pratica.sql` → Exercícios práticos envolvendo **junções, subconsultas e filtros complexos**.  
+- `Mao_na_massa_gerenciamento_escolar.sql` → Consultas aplicadas a um **sistema escolar**, incluindo **JOINs, subconsultas e VIEWs**, além de manipulação de dados.  
+- `Mao_na_massa_transacoes.sql` → Exercícios sobre **transações**, usando **BEGIN**, **COMMIT**, **ROLLBACK**, `DELETE CASCADE` e `UPDATE`.
 
 ---
 
 ## 🚀 Como Utilizar
 
-1. **Abra o SQLite Online ou outro ambiente de banco de dados SQLite.**
+1. **Abra o SQLite (Online ou Desktop).**  
 2. **Execute primeiro o arquivo `criando_tabelas.sql`**  
-   → Esse script cria todas as tabelas necessárias para o projeto.
-
-3. **Depois, execute o arquivo `adicionando_dados.sql`**  
-   → Esse script insere os registros nas tabelas para permitir a execução das consultas apresentadas no curso.
-
-4. **Em seguida, execute o arquivo `criando_subconsultas.sql`**  
-   → Esse script contém consultas com **subconsultas** para prática de filtragem e seleção avançada.
+   → Cria toda a estrutura do banco, incluindo colunas com valores padrão (`DEFAULT`).  
+3. **Execute o arquivo `adicionando_dados.sql`**  
+   → Insere dados e popula as tabelas para uso nas consultas.  
+4. **Rode os scripts de consultas conforme o tema desejado:**  
+   - `criando_subconsultas.sql` → Prática com **subconsultas** e **UNION / UNION ALL**.  
+   - `Realizando_juncao_de_dados.sql` → Prática com **JOINs** entre múltiplas tabelas.  
+   - `Implementando_Views_e_Trigger.sql` → Criação de **views** e **gatilhos automáticos**.  
+   - `Mao_na_massa_transacoes.sql` → Exercícios de **transações**, **COMMIT** e **ROLLBACK**.  
 
 ---
 
 ## 💡 Conteúdos Praticados
 
-Durante as aulas, são explorados conceitos como:
-- Criação e relacionamento de tabelas  
-- **INNER JOIN**, **LEFT JOIN** e **RIGHT JOIN**  
-- Criação de **Views (visões)**  
-- Uso de **transações** para garantir integridade dos dados  
-- **Subconsultas** para consultas mais avançadas e filtragem de dados
+Durante o curso, foram aplicados os seguintes conceitos:
+
+- Criação de tabelas com **valores padrão (DEFAULT)**  
+- **Importação de arquivos CSV**  
+- Consultas com **UNION** e **UNION ALL**  
+- **Subconsultas** (`IN` e `HAVING`)  
+- **INNER JOIN**, **LEFT JOIN**, **RIGHT JOIN** e **FULL JOIN**  
+- Criação e utilização de **VIEWs**  
+- Implementação de **TRIGGERs**  
+- **Atualizações e exclusões** (`UPDATE` e `DELETE CASCADE`)  
+- Controle de **transações** (**BEGIN**, **COMMIT**, **ROLLBACK**)  
 
 ---
 
@@ -46,8 +56,9 @@ Durante as aulas, são explorados conceitos como:
 
 📘 **Curso:** Realizando Consultas com SQL: Joins, Views e Transações  
 🎓 **Plataforma:** [Alura](https://www.alura.com.br/)  
+🧑‍💻 **Banco de Dados:** SQLite  
 
 ---
 
 🧾 **Observação:**  
-Este repositório tem finalidade **educacional**, sendo uma reprodução prática das atividades propostas no curso.
+Este repositório tem finalidade **educacional**, reproduzindo práticas e exercícios do curso.

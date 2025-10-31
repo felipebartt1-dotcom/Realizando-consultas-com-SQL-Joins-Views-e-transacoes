@@ -57,13 +57,11 @@ CREATE TABLE Clientes (
 -- 5) Criação da tabela de Pedidos
 -- ===============================================================
 CREATE TABLE Pedidos (
-    id TEXT PRIMARY KEY,
-    idCliente TEXT NOT NULL,
-    idColaborador TEXT,
-    dataPedido DATE NOT NULL,
-    total DECIMAL(10, 2),
-    FOREIGN KEY (idCliente) REFERENCES Clientes(id),
-    FOREIGN KEY (idColaborador) REFERENCES Colaboradores(id)
+    ID TEXT PRIMARY KEY,
+    IDCliente TEXT NOT NULL,
+    DataHoraPedido DATE NOT NULL,
+    Status TEXT,
+    FOREIGN KEY (idCliente) REFERENCES Clientes(id)   
 );
 
 -- ===============================================================

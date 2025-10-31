@@ -11,8 +11,9 @@ O objetivo é praticar a criação e manipulação de bancos de dados relacionai
 - `adicionando_dados.sql` → Script que **insere os dados iniciais** nas tabelas criadas.  
 - `criando_subconsultas.sql` → Script com **consultas utilizando subconsultas**, permitindo práticas avançadas de seleção e filtragem de dados.  
 - `Realizando_juncao_de_dados.sql` → Script com **consultas utilizando INNER JOIN, RIGHT JOIN, LEFT JOIN e FULL JOIN**, que permitem combinar e consultar dados relacionados entre diferentes tabelas.  
-- `Implementando_Views_e_Trigger.sql` → Script com **consultas utilizando VIEW e TRIGGER**, que possibilitam criar visões virtuais e automatizar processos no banco de dados.  - `Mao_na_massa_Hora_da_pratica.sql` → Script com **consultas práticas envolvendo filtros, junções e subconsultas**, consolidando os conceitos aprendidos ao longo do curso.
-.
+- `Implementando_Views_e_Trigger.sql` → Script com **consultas utilizando VIEW e TRIGGER**, que possibilitam criar visões virtuais e automatizar processos no banco de dados.  
+- `Mao_na_massa_Hora_da_pratica.sql` → Script com **consultas práticas envolvendo filtros, junções e subconsultas**, consolidando os conceitos aprendidos ao longo do curso.  
+- `Mao_na_massa_gerenciamento_escolar.sql` → Script com **consultas avançadas para gerenciamento escolar**, incluindo subconsultas, JOINs e criação de VIEWs para análise de alunos, professores, turmas e notas.
 
 ---
 

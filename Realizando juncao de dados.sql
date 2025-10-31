@@ -19,7 +19,7 @@ ON p.IDCliente = c.ID;
 -- ===============================================================
 
 SELECT DISTINCT p.Nome
-FROM ItensPedidos ip
+FROM ItensPedido ip
 RIGHT JOIN Produtos p
 ON p.ID = ip.IDProduto;
 
